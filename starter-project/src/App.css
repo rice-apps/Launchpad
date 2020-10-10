@@ -1,0 +1,33 @@
+.navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+	height: 80px;
+	width: 80px;
+	padding: 10px;
+}
+
+.navigationLinks {
+	padding: 10px;
+}
+
+.darkModeToggle {
+	margin-left: 10px;
+  padding: 10px;
+  color: white; /* Changes font color */
+
+	/* From the Figma */
+	background: #000000;
+	border-radius: 10px;
+	border: none;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+}
