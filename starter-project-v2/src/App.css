@@ -1,0 +1,108 @@
+/* CSS for NavigationBar.js */
+.navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	height: 60px;
+	width: 60px;
+	padding: 10px;
+}
+
+.navigationLinks {
+	padding: 10px;
+}
+
+.darkModeToggle {
+	margin-left: 10px;
+	padding: 10px;
+
+	/* From the Figma */
+	border-radius: 10px;
+	border: none;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+/* CSS for Hero Image */
+.heroImageContainer {
+  display: flex;
+  background-position: bottom;
+}
+
+.heroImage {
+	width: 100vw;
+	height: 50vh;
+  object-fit: cover;
+  object-position: 25% 25%; /* this is the secret sauce */
+}
+
+.bottom {
+	background-color: #faa1bc;
+}
+
+/* CSS for RiceApps Heading */
+.headingContainer {
+	display: flex;
+	flex-direction: row;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.headingTitle {
+	margin: 22px; /* From Figma */
+
+	/* Copied from Figma */
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 62px;
+
+	text-align: center;
+}
+
+/* CSS for DescriptionBoxes */
+.descriptionBoxContainer {
+	display: flex;
+	flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 5vh;
+}
+
+.descriptionBox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  text-align: center;
+  
+  width: 30vw;
+
+	background: #ffffff;
+  border-radius: 20px;
+  border: none;
+
+	/* From Figma */
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 31px;
+	text-align: center;
+}
+
+.descriptionBox > h1 {
+  margin-bottom: 0px;
+}
+
+.descriptionBox > p {
+  margin-top: 20px;
+  padding: 0px 43px 0px 43px; /* only adds padding on right & left */
+}
